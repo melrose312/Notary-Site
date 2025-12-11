@@ -10,17 +10,6 @@
   --accent-light: #e8c547;
   --accent-glow: rgba(201, 162, 39, 0.3);
   
- 
-  /* Spacing */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  /* --space-lg: 1.5rem; 16PX */
-  /* --space-xl: 2rem; 32
-  --space-2xl: 3rem; 48px
-  --space-3xl: 4rem; 64px */
-  /* --space-4xl: 6rem; 96px  */
-  
   /* Shadows */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -84,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-dark);
 }
 
-/* ===== Layout Utilities ===== */
 .container {
   width: 100%;
   max-width: 1200px;
@@ -96,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 96px 0;
 }
 
-/* ===== Header & Navigation ===== */
+/* HEADER & NAV */
 .header {
   position: fixed;
   top: 0;
@@ -111,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px; 0;
+  padding: 16px 0;
 }
 
 .logo {
@@ -256,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: fadeInUp 0.8s ease 0.6s both;
 }
 
-/* ===== Buttons ===== */
+/* BUTTONS */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -292,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #ffffff;
 }
 
-/* ===== Services Section ===== */
+/* SERVICES */
 .services {
   background: #ffffff;
 }
@@ -406,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem;
 }
 
-/* ===== Why Choose Us Section ===== */
+/* WHY CHOOSE US */
 .why-us {
   background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
   color: #ffffff;
@@ -462,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.95rem;
 }
 
-/* ===== CTA Section ===== */
+/* CTA */
 .cta {
   background: #ffffff;
   text-align: center;
@@ -486,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.1rem;
 }
 
-/* ===== Contact Page Styles ===== */
+/* CONTACT PAGE */
 .contact__hero {
   min-height: 40vh;
   display: flex;
@@ -629,7 +617,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 16px;
   border: 2px solid #e9ecef;
   border-radius: var(--radius-md);
-  font-family: var(--font-primary);
   font-size: 1rem;
   transition: all var(--transition-fast);
   background: #f8f9fa;
@@ -744,7 +731,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===== Responsive Design ===== */
+/* RESPONSIVENESS */
 @media (max-width: 992px) {
   .footer__content {
     grid-template-columns: 1fr 1fr;
