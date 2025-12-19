@@ -528,19 +528,19 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 19px;
   flex-shrink: 0;
 }
 
 .contact__detail--content h4 {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: 4px;
 }
 
 .contact__detail--content p {
   color: #ced4da;
-  font-size: 0.95rem;
+  font-size: 15px;
 }
 
 .contact__detail--content a:hover {
@@ -582,7 +582,7 @@ h6 {
 
 .form__group label {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 14px;
   margin-bottom: 8px;
   color: black;
 }
@@ -593,7 +593,7 @@ h6 {
   padding: 16px;
   border: 2px solid #e9ecef;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 16px;
   transition: all 150ms ease;
   background: #f8f9fa;
 }
@@ -618,7 +618,7 @@ h6 {
   padding: 16px 48px;
   border: none;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: all 250ms ease;
@@ -660,7 +660,7 @@ h6 {
 
 .form__group label {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 14px;
   margin-bottom: 8px;
   color: #1a2a4a;
 }
@@ -671,7 +671,7 @@ h6 {
   padding: 16px;
   border: 2px solid #e9ecef;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
   transition: all 150ms ease;
   background: #f8f9fa;
@@ -702,7 +702,7 @@ h6 {
   padding: 16px 48px;
   border: none;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: all 250ms ease;
@@ -735,7 +735,7 @@ h6 {
 
 .footer__brand p {
   line-height: 1.7;
-  font-size: 0.95rem;
+  font-size: 15px;
 }
 
 .footer__title {
@@ -753,7 +753,7 @@ h6 {
 
 .footer__links a {
   color: #ced4da;
-  font-size: 0.95rem;
+  font-size: 15px;
   transition: color 150ms ease;
 }
 
@@ -765,7 +765,7 @@ h6 {
   padding-top: 32px;
   border-top: 1px solid #343a40;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 /* ===== Animations ===== */
