@@ -6,8 +6,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   const formData = new FormData(this);
   const data = Object.fromEntries(formData);
 
-  // Show success message (in production, this would send to a server)
-  alert("Thank you for your message! We will get back to you soon!");
+  // Show success message
+  alert("This feature has not been implemented, for demonstration only.");
 
   // Reset form
   this.reset();
