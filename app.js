@@ -1,10 +1,10 @@
 // Simple form submission handler
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+  event.preventDefault();
 
   // Get form data
   const formData = new FormData(this);
-  const data = Object.fromEntries(formData);
+  // const data = Object.fromEntries(formData);
 
   // Show success message
   alert("This feature has not been implemented, for demonstration only.");
