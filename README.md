@@ -3,7 +3,7 @@
 I built this website for a local notary public service to give their business a clean, modern look that builds trust with clients. It’s designed to feel professional yet approachable, especially since Lorelle is a small business. It's perfect for that local service feel.
 
 
-This is a 2-page static website built to promote local notary services. The site features:
+This is a 2-page static website built to promote local notary services.
 
 
 ## Features
