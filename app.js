@@ -3,11 +3,11 @@ document.getElementById("contactForm").addEventListener("submit", function (even
   event.preventDefault();
 
   // Get form data
-  const formData = new FormData(this);
+  // const formData = new FormData(this);
   // const data = Object.fromEntries(formData);
 
   // Show success message
-  alert("This feature has not been implemented, for demonstration only.");
+  alert("This feature has not been implemented.");
 
   // Reset form
   this.reset();
